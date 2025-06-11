@@ -1,0 +1,2141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+  margin-bottom: 104px;
+}
+.common-padding{
+  padding: 15px 60px; 
+}
+
+.navbar {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #f5e4c3; 
+  width: 100%; 
+}
+
+.nav-links {
+  display: flex; 
+  list-style: none; 
+  gap: 25px; 
+  margin-left: auto; 
+  margin-right: 25px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333; /* Dark text color for links */
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.nav-links li a {
+  color: #020202; 
+}
+
+.contact-button {
+  display: inline-block; /* padding and styling */
+  background-color: #cd5c24; 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none;
+  text-align: center;
+  font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact-button {
+  background-color:#C24914; 
+}
+
+/* Optional: Adjust icon style */
+.logo i {
+  font-size: 1.2em; /* Adjust icon size relative to text */
+  margin-right: 5px;
+}
+
+/* container-main-2 */
+.container-main-2{
+    display: flex;
+    align-items: center;
+}
+
+
+.contain-paragraph2{    
+    display: flex;
+    align-items: center;    
+   padding-top: 196px;
+   padding-left: 100px;
+}
+
+
+.Start-learning-now{
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: Poppins;
+    line-height: 100%;
+}
+
+.Lorem{
+  font-weight: 400;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+
+.startlearning-button{
+  display: inline-block;
+  background-color: #C24914;;
+  color: white;
+  padding: 10px 20px;
+  line-height: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Poppins;
+  margin-top: 30px;
+}
+/*  
+.learning-image{
+    padding-left: 90px;
+
+} */
+
+.container-main-3{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+/* .girl-image{
+    padding-right: 80px;
+} */
+
+.online-center-learning{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    
+}
+
+.online-center{
+    line-height: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: Poppins;
+}
+
+.steps{
+    padding-top: 40px;
+    padding-left: 20.5px; 
+    font-weight: 400;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 24px;
+}
+
+
+.container-main-4{
+    display: flex;
+}
+
+.container-main-4-heading{
+  display: flex;
+  /* justify-content: center; */
+}
+
+.start-learning{
+    text-align: start;
+    font-weight: 600;
+    font-style: normal;
+    font-family:Poppins;
+    font-size: 48px;
+    display: flex
+;
+    align-items: center;
+    
+}
+
+
+/* footer and contact */
+.contact-us {
+    padding: 40px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Poppins;
+  }
+  .Contact-heading{
+    margin-bottom: 20px;
+  }
+  
+  .subscription-box {
+    background-color: #f6e1b5;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+  
+  }
+  
+  .subscription-box input {
+    padding: 20px 21px;
+    border: none;
+    width: 220px;
+    width: 100%;
+  }
+  
+  .subscription-box button {
+    background-color: #c14d00;
+    color: white;
+    border: none;
+    padding: 20px 190px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #f6d79b;
+    padding-top: 85px;
+    padding-bottom: 80px
+  }
+  
+  .footer-top { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+      margin-bottom: 30px;
+  } 
+  
+  
+  
+  .social h3,
+  .links h3,
+  .contact h3 {
+    margin-bottom: 13px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .work{
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+
+  .contact-detail{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6C6C6C;
+    line-height: 22px;
+  }
+  
+  .social .icons {
+    display: flex;
+    gap: 13px;
+  }
+    .img-footer{
+      height: 32px; 
+      width: 32px;
+    }
+
+
+  .links ul {
+    /* list-style: disc;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400; */
+    color: #6C6C6C;
+    line-height: 100%;
+  }
+  
+  .links ul li {
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 100%;
+  }
+  
+  .footer-bottom {
+   display: flex;
+   justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #6C6C6C;
+    padding-top: 30px;
+  }
+
+  .logo-and-social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .link-and-work{
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+ 
+/* @media */
+
+
+      
+
+  @media screen and (max-width: 787px) {
+
+    .container-main-2{
+      margin-bottom: 4px
+    }
+
+    .container-main-3{
+      margin-bottom: 4px;
+    }
+
+    .container-main-4 {
+      margin-bottom: 4px;
+    }
+
+    .contact-us{
+      margin-bottom: 4px;
+    }
+
+    .Start-learning-now{
+      font-size: 26px;
+      padding-bottom: 5px;
+    }
+    
+    .Lorem{
+      font-size: 15px;
+    }
+    
+    .online-center{
+      font-size: 26px;
+    }
+
+    .online-center-learning{
+      padding-left: 32px;
+    }
+
+    .steps{
+    padding-top: 21px;
+    padding-left: 14.5px;
+    font-size: 15px;
+    }
+
+    .container-main-4-heading{
+      font-size: 26px;
+    }
+
+    .subscription-box{
+      padding: 30px;
+    }
+
+    .subscription-box button{
+      padding: 10px 35px;
+      width: 100%;
+    }
+
+    .footer-top{
+      /* display: flex; */
+      /* flex-wrap: nowrap; */
+      /* padding-right: 10px; */
+      padding: 0px 4px;
+    }
+
+    .footer{
+      padding-top: 45px;
+    padding-bottom: 18px;
+    }
+
+    /* .logo-and-social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    }
+
+    .link-and-work {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 20px;
+      margin-left: 20px;
+    } */
+
+    .social{
+      padding-right: 47px;
+    }
+
+    .social-media{
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+
+    .logo{
+      width: 50%;
+    }
+
+     /* h3, .work , .contact h3 , .contact-detail p {
+      display: flex; 
+       justify-content: space-evenly;
+    } */
+}
+
+
+@media screen and (max-width: 796px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 804px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+@media screen and (max-width: 812px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 820px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 860px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 880px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+@media screen and (max-width: 920px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+@media screen and (max-width: 940px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 970px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+@media screen and (max-width: 990px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  .Start-learning-now{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .Lorem{
+    font-size: 17px;
+  }
+
+  .online-center-learning {
+    padding-left: 45px;
+  }
+  .online-center{
+    font-size: 30px; 
+  }
+
+  .steps{
+    padding-left: 15.5px;
+    padding-top: 29px;
+    font-size: 17px;
+  }
+
+  .container-main-4-heading{
+    font-size: 30px; 
+  }
+
+  .Contact-heading{
+    font-size: 30px;
+  }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+
+ .Start-learning-now {
+        padding-bottom: 4px;
+        font-size: 12px;
+    }
+
+  .Lorem{
+        font-size: 4px;
+        }
+
+  .startlearning-button{
+    padding: 4px 7px;
+    border-radius: 3px;
+    font-size: 9px;
+    margin-top: 18px;
+  }
+
+  .online-center-learning {
+   padding-left: 14px;
+  }
+  .online-center{
+    font-size: 10px; 
+  }
+
+  .steps{
+        padding-left: 15.5px;
+        padding-top: 12px;
+        font-size: 7px;
+  }
+
+  .container-main-4-heading{
+   font-size: 8px; 
+  }
+
+  .Contact-heading{
+    font-size: 10px;
+  }
+
+  .subscription-box input {
+    padding: 1px 1px;
+  }
+
+  .subscription-box {
+        padding: 6px;
+        display: flow;
+    }
+
+  .subscription-box button{
+    padding: 17px 70px;
+  }
+
+  
+  .logo{
+    width: 50%;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .social{
+    padding-right: 47px;
+    /* font-size: 20px; */
+  }
+
+  .social h3,.links h3 {
+    font-size: 20px;
+  }
+
+  .contact h3{
+    font-size: 20px;
+  }
+
+  .social .icons{
+    padding-right: 50px;
+  }
+
+
+
+  .footer{
+    padding-top: 45px;
+  padding-bottom: 18px;
+  }
+
+  .footer-top{
+    padding: 0px 4px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-detail{
+    padding-right: 66px;
+    font-size: 15px;
+  }
+
+  .footer-top{
+    margin-left: 50px;
+  }
+}
